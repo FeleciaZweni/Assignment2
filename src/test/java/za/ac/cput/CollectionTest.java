@@ -5,10 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.Collection;
 import java.util.LinkedHashSet;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-
-import static org.junit.Assert.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class CollectionTest
 {
