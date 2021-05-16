@@ -14,12 +14,13 @@ public class CollectionTest
 {
    Collection c = new LinkedHashSet();
 
-   @Test
-    void add(){
-       c.add("Felecia");
-       c.add("Zweni");
-       assertEquals(2, c.size());
-   }
+    @Test
+    void add() {
+        c.add("Felecia");
+        c.add("Zweni");
+        assertEquals(2, c.size());
+    }
+
 
    @Test
     void remove(){
